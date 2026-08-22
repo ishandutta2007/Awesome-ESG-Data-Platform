@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="340">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="50%" stop-color="#0a192f"/>
+      <stop offset="100%" stop-color="#042f2e"/>
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34d399">
+        <animate attributeName="stop-color" values="#34d399;#10b981;#38bdf8;#60a5fa;#34d399" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" values="#38bdf8;#60a5fa;#34d399;#10b981;#38bdf8" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#a7f3d0">
+        <animate attributeName="stop-color" values="#a7f3d0;#6ee7b7;#93c5fd;#a7f3d0" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(16, 185, 129, 0.15)"/>
+      <stop offset="100%" stop-color="rgba(56, 189, 248, 0.05)"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .pulse-circle {
+        animation: pulse 4s ease-in-out infinite alternate;
+        transform-origin: center;
+      }
+      .rotate-ring {
+        animation: rotateRing 25s linear infinite;
+        transform-origin: 1050px 170px;
+      }
+      .rotate-ring-rev {
+        animation: rotateRingRev 35s linear infinite;
+        transform-origin: 1050px 170px;
+      }
+      .float-node-1 {
+        animation: float1 6s ease-in-out infinite alternate;
+      }
+      .float-node-2 {
+        animation: float2 5s ease-in-out infinite alternate;
+      }
+      .float-node-3 {
+        animation: float3 7s ease-in-out infinite alternate;
+      }
+      .shimmer-line {
+        stroke-dasharray: 8, 8;
+        animation: dash 30s linear infinite;
+      }
+      @keyframes pulse {
+        0% { transform: scale(0.95); opacity: 0.4; }
+        100% { transform: scale(1.08); opacity: 0.8; }
+      }
+      @keyframes rotateRing {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes rotateRingRev {
+        from { transform: rotate(360deg); }
+        to { transform: rotate(0deg); }
+      }
+      @keyframes float1 {
+        0% { transform: translateY(0px) translateX(0px); }
+        100% { transform: translateY(-12px) translateX(6px); }
+      }
+      @keyframes float2 {
+        0% { transform: translateY(0px) translateX(0px); }
+        100% { transform: translateY(10px) translateX(-8px); }
+      }
+      @keyframes float3 {
+        0% { transform: translateY(0px) translateX(0px); }
+        100% { transform: translateY(-8px) translateX(-10px); }
+      }
+      @keyframes dash {
+        to { stroke-dashoffset: 1000; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="340" fill="url(#bgGrad)" rx="16"/>
+
+  <!-- Decorative Grid Overlay -->
+  <g stroke="rgba(255,255,255,0.03)" stroke-width="1">
+    <line x1="0" y1="68" x2="1200" y2="68"/>
+    <line x1="0" y1="136" x2="1200" y2="136"/>
+    <line x1="0" y1="204" x2="1200" y2="204"/>
+    <line x1="0" y1="272" x2="1200" y2="272"/>
+    <line x1="150" y1="0" x2="150" y2="340"/>
+    <line x1="300" y1="0" x2="300" y2="340"/>
+    <line x1="450" y1="0" x2="450" y2="340"/>
+    <line x1="600" y1="0" x2="600" y2="340"/>
+    <line x1="750" y1="0" x2="750" y2="340"/>
+    <line x1="900" y1="0" x2="900" y2="340"/>
+    <line x1="1050" y1="0" x2="1050" y2="340"/>
+  </g>
+
+  <!-- Glowing Radial Accents in Background -->
+  <circle cx="1050" cy="170" r="140" fill="#10b981" opacity="0.08" class="pulse-circle" />
+  <circle cx="120" cy="60" r="100" fill="#0284c7" opacity="0.06" class="pulse-circle" />
+
+  <!-- Animated Globe / Eco-Data Network Art on Right -->
+  <g class="rotate-ring">
+    <circle cx="1050" cy="170" r="110" fill="none" stroke="rgba(52, 211, 153, 0.35)" stroke-width="1.5" stroke-dasharray="6, 12" />
+    <circle cx="1050" cy="170" r="85" fill="none" stroke="rgba(56, 189, 248, 0.25)" stroke-width="1" stroke-dasharray="4, 8" />
+  </g>
+  <g class="rotate-ring-rev">
+    <ellipse cx="1050" cy="170" rx="110" ry="45" fill="none" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1.5" stroke-dasharray="5, 10" />
+    <ellipse cx="1050" cy="170" rx="45" ry="110" fill="none" stroke="rgba(14, 165, 233, 0.3)" stroke-width="1.5" stroke-dasharray="8, 6" />
+  </g>
+
+  <!-- Central Planet/Core -->
+  <circle cx="1050" cy="170" r="48" fill="url(#cardGrad)" stroke="#10b981" stroke-width="2" filter="url(#subtleGlow)"/>
+  
+  <!-- Eco Leaf & Carbon Nodes inside Planet -->
+  <path d="M 1050 145 C 1065 155 1068 175 1050 195 C 1032 175 1035 155 1050 145 Z" fill="#34d399" opacity="0.8"/>
+  <path d="M 1050 155 L 1050 190" stroke="#064e3b" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Network Connecting Lines -->
+  <g class="shimmer-line" stroke="rgba(52, 211, 153, 0.4)" stroke-width="1.5">
+    <line x1="880" y1="80" x2="1050" y2="170" />
+    <line x1="920" y1="260" x2="1050" y2="170" />
+    <line x1="800" y1="170" x2="1002" y2="170" />
+  </g>
+
+  <!-- Network Data Nodes -->
+  <g class="float-node-1">
+    <circle cx="880" cy="80" r="7" fill="#38bdf8" filter="url(#subtleGlow)"/>
+    <circle cx="880" cy="80" r="14" fill="none" stroke="#38bdf8" stroke-width="1" opacity="0.5"/>
+    <text x="880" y="60" fill="#93c5fd" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Scope 1-3</text>
+  </g>
+
+  <g class="float-node-2">
+    <circle cx="800" cy="170" r="8" fill="#10b981" filter="url(#subtleGlow)"/>
+    <circle cx="800" cy="170" r="16" fill="none" stroke="#10b981" stroke-width="1" opacity="0.5"/>
+    <text x="800" y="200" fill="#6ee7b7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" text-anchor="middle">ESG Intelligence</text>
+  </g>
+
+  <g class="float-node-3">
+    <circle cx="920" cy="260" r="7" fill="#34d399" filter="url(#subtleGlow)"/>
+    <circle cx="920" cy="260" r="14" fill="none" stroke="#34d399" stroke-width="1" opacity="0.5"/>
+    <text x="920" y="285" fill="#a7f3d0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Open Data</text>
+  </g>
+
+  <!-- Left Content: Header, Subtitle, & Feature Pills -->
+  <g transform="translate(60, 0)">
+    <!-- Category Badge -->
+    <rect x="0" y="42" width="230" height="28" rx="14" fill="rgba(16, 185, 129, 0.12)" stroke="rgba(52, 211, 153, 0.4)" stroke-width="1"/>
+    <circle cx="16" cy="56" r="5" fill="#10b981">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="30" y="60" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="1">CURATED ECOSYSTEM</text>
+
+    <!-- Main Title -->
+    <text x="0" y="120" fill="url(#textGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif" font-size="40" font-weight="900" letter-spacing="-0.5" filter="url(#subtleGlow)">
+      Awesome ESG Data Platform
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="160" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="400">
+      Enterprise SaaS Marketplaces &amp; Open-Source Climate Data Infrastructure
+    </text>
+    <text x="0" y="185" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400">
+      Carbon Accounting • Sustainability Disclosures • CSRD • Scope 1-3 • Energy &amp; Climate Intelligence
+    </text>
+
+    <!-- Dynamic Tag Badges -->
+    <g transform="translate(0, 220)">
+      <!-- Pill 1 -->
+      <g>
+        <rect x="0" y="0" width="130" height="34" rx="8" fill="rgba(30, 41, 59, 0.8)" stroke="rgba(52, 211, 153, 0.3)" stroke-width="1"/>
+        <text x="65" y="21" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" text-anchor="middle">🌱 Carbon Accounting</text>
+      </g>
+      <!-- Pill 2 -->
+      <g transform="translate(142, 0)">
+        <rect x="0" y="0" width="145" height="34" rx="8" fill="rgba(30, 41, 59, 0.8)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1"/>
+        <text x="72" y="21" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" text-anchor="middle">📊 ESG Reporting</text>
+      </g>
+      <!-- Pill 3 -->
+      <g transform="translate(299, 0)">
+        <rect x="0" y="0" width="155" height="34" rx="8" fill="rgba(30, 41, 59, 0.8)" stroke="rgba(168, 85, 247, 0.3)" stroke-width="1"/>
+        <text x="77" y="21" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" text-anchor="middle">🌍 Climate Intelligence</text>
+      </g>
+      <!-- Pill 4 -->
+      <g transform="translate(466, 0)">
+        <rect x="0" y="0" width="135" height="34" rx="8" fill="rgba(30, 41, 59, 0.8)" stroke="rgba(245, 158, 11, 0.3)" stroke-width="1"/>
+        <text x="67" y="21" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" text-anchor="middle">⚡ Open-Source</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Border Highlight Line -->
+  <rect x="0" y="336" width="1200" height="4" fill="url(#textGrad)"/>
+</svg>
