@@ -30,7 +30,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saas-products)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
 
@@ -46,173 +46,36 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Datamaran](https://www.datamaran.com/)**  
-
-  ESG risk intelligence and data platform focused on materiality, regulatory intelligence, external data, and sustainability risk monitoring.
-
-
-
-- **[Workiva ESG](https://www.workiva.com/)**  
-
-  Connected ESG data, reporting, controls, audit trails, and disclosure management platform integrated with financial and operational reporting.
-
-
-
-- **[Diligent ESG](https://www.diligent.com/)**  
-
-  ESG and sustainability management platform supporting data collection, reporting, governance, and disclosure workflows.
-
-
-
-- **[Novisto](https://novisto.com/)**  
-
-  Enterprise ESG data management and reporting platform for collecting, governing, analyzing, and disclosing sustainability information.
-
-
-
-- **[Persefoni](https://www.persefoni.com/)**  
-
-  Enterprise carbon-management and climate accounting platform covering emissions measurement, Scope 1–3 accounting, reporting, and decarbonization.
-
-
-
-- **[IBM Envizi](https://www.ibm.com/products/envizi)**  
-
-  Enterprise sustainability data and performance-management platform for ESG reporting, carbon accounting, environmental metrics, and operational sustainability.
-
-
-
-- **[Sweep](https://www.sweep.net/)**  
-
-  Sustainability management platform for carbon accounting, ESG data collection, supplier engagement, climate targets, and reporting.
-
-
-
-- **[Watershed](https://watershed.com/)**  
-
-  Enterprise climate platform for emissions measurement, Scope 1–3 accounting, supplier engagement, climate programs, and sustainability reporting.
-
-
-
-- **[Greenly](https://greenly.earth/)**  
-
-  Carbon accounting and sustainability platform providing emissions measurement, supplier data collection, climate reporting, and decarbonization tools.
-
-
-
-- **[FigBytes](https://figbytes.com/)**  
-
-  Sustainability and ESG data-management platform for collecting environmental and social data, managing targets, and producing sustainability reports.
-
-
-
-- **[Sphera](https://sphera.com/)**  
-
-  Enterprise sustainability, ESG, operational risk, product stewardship, environmental accounting, and life-cycle assessment platform.
-
-
-
-- **[Microsoft Cloud for Sustainability](https://www.microsoft.com/en-us/sustainability/cloud)**  
-
-  Microsoft sustainability data and analytics ecosystem for emissions management, ESG data, environmental reporting, and sustainability performance.
-
-
-
-- **[Normative](https://normative.io/)**  
-
-  Carbon accounting and climate-management platform supporting Scope 1–3 measurement, emissions data collection, reporting, and reduction planning.
-
-
-
-- **[Position Green](https://www.positiongreen.com/)**  
-
-  ESG reporting and sustainability-management platform covering data collection, reporting, analytics, and sustainability strategy.
-
-
-
-- **[Plan A](https://plana.earth/)**  
-
-  Sustainability platform focused on carbon accounting, decarbonization, ESG reporting, and climate action.
-
-
-
-- **[SINAI Technologies](https://www.sinaitechnologies.com/)**  
-
-  Enterprise decarbonization and climate-management platform for carbon accounting, emissions reduction planning, and scenario analysis.
-
-
-
-- **[Novata](https://www.novata.com/)**  
-
-  ESG data-management and reporting platform designed to help private-market companies collect, benchmark, and report sustainability information.
-
-
-
-- **[EcoVadis](https://ecovadis.com/)**  
-
-  Sustainability intelligence and supplier assessment platform providing ESG ratings, scorecards, benchmarking, and supply-chain sustainability data.
-
-
-
-- **[Clarity AI](https://clarity.ai/)**  
-
-  Sustainability and impact analytics platform providing ESG, climate, regulatory, and investment-related data and analytics.
-
-
-
-- **[Benchmark ESG](https://www.benchmarkdigital.com/)**  
-
-  Enterprise ESG and environmental, health, safety, and sustainability management platform.
-
-
-
-- **[VelocityEHS](https://www.ehs.com/)**  
-
-  Environmental, health, safety, sustainability, and ESG management platform with data collection, analytics, reporting, and compliance workflows.
-
-
-
-- **[Cority](https://www.cority.com/)**  
-
-  Enterprise EHS, sustainability, and ESG software platform supporting environmental data, sustainability performance, and reporting.
-
-
-
-- **[Enablon](https://www.wolterskluwer.com/en/solutions/enablon)**  
-
-  Enterprise ESG, EHS, risk, compliance, and sustainability performance-management platform.
-
-
-
-- **[Sustain.Life](https://www.sustain.life/)**  
-
-  Carbon accounting and sustainability-management platform designed for organizations measuring and reducing environmental impact.
-
-
-
-- **[Greenhouse Gas Management by Salesforce](https://www.salesforce.com/)**  
-
-  Sustainability data and carbon-management capabilities integrated into the Salesforce ecosystem.
-
-
-
-- **[SAP Sustainability Control Tower](https://www.sap.com/)**  
-
-  Enterprise sustainability data, KPI, analytics, and reporting capabilities integrated with SAP business data.
-
-
-
-- **[Oracle Sustainability](https://www.oracle.com/)**  
-
-  Sustainability-management capabilities covering ESG data, environmental accounting, supply-chain sustainability, and enterprise reporting.
-
-
-
-- **[Watershed Climate Intelligence](https://watershed.com/)**  
-
-  Climate data infrastructure and analytics for enterprise emissions accounting, climate risk, supplier engagement, and sustainability programs.
+| Platform | Description | Pricing (Starting Tier) | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Datamaran](https://www.datamaran.com/)** | ESG risk intelligence and data platform focused on materiality, regulatory intelligence, external data, and sustainability risk monitoring. | ~$20,000 – $25,000/year (Base platform subscription for core materiality & ESG risk intelligence modules) | Free community tier via Datamaran Harbor (limited access to ESG insights & benchmarks); no software trial (demo on request) |
+| **[Workiva ESG](https://www.workiva.com/)** | Connected ESG data, reporting, controls, audit trails, and disclosure management platform integrated with financial and operational reporting. | ~$25,000/year (Entry-level reporting module for SMB/mid-market; enterprise multi-entity plans average $100,000+/year) | No free forever plan; 14-day guided sandbox pilot available upon qualified enterprise evaluation |
+| **[Diligent ESG](https://www.diligent.com/)** | ESG and sustainability management platform supporting data collection, reporting, governance, and disclosure workflows. | ~$5,000/year per feature module (~$20,000 – $40,000/year for full ESG & GRC suite) | No free forever plan; 30-day proof-of-concept / guided pilot available upon enterprise consultation |
+| **[Novisto](https://novisto.com/)** | Enterprise ESG data management and reporting platform for collecting, governing, analyzing, and disclosing sustainability information. | ~CA$40,000/year (~$30,000 USD/year starting tier for core ESG data management & reporting) | No free forever plan; 14-day sandbox access available upon qualified sales demonstration |
+| **[Persefoni](https://www.persefoni.com/)** | Enterprise carbon-management and climate accounting platform covering emissions measurement, Scope 1–3 accounting, reporting, and decarbonization. | Free (Persefoni Pro) / Paid Advanced tiers start at ~$40,000/year for enterprise carbon & compliance bundles (e.g., California SB 253/261) | Free Forever plan (Persefoni Pro: unlimited Scope 1 & 2 carbon footprint calculations, standard GHG accounting & data sharing for single entity) |
+| **[IBM Envizi](https://www.ibm.com/products/envizi)** | Enterprise sustainability data and performance-management platform for ESG reporting, carbon accounting, environmental metrics, and operational sustainability. | $45/month (Emissions API & Excel tool) / ~$30,000/year base tier via AWS Marketplace & direct sales for IBM Envizi ESG Suite | 14-day free trial with access to core ESG dashboarding, carbon accounting calculations, and reporting templates |
+| **[Sweep](https://www.sweep.net/)** | Sustainability management platform for carbon accounting, ESG data collection, supplier engagement, climate targets, and reporting. | $250/month ($3,000/year starter plan) / $3,600/year AWS Marketplace flat base fee (Growth tier at $800/month) | No free forever plan; 14-day guided proof-of-concept trial upon request for qualified organizations |
+| **[Watershed](https://watershed.com/)** | Enterprise climate platform for emissions measurement, Scope 1–3 accounting, supplier engagement, climate programs, and sustainability reporting. | ~$30,000 – $50,000/year entry-level enterprise contract for Scope 1–3 carbon accounting & analytics | Free Open CEDA emissions database access (public research access across 148 countries & 400 industries); no full software free trial (demo only) |
+| **[Greenly](https://greenly.earth/)** | Carbon accounting and sustainability platform providing emissions measurement, supplier data collection, climate reporting, and decarbonization tools. | ~$1,950 – $3,800/year (~$160 – $315/month starter SME carbon assessment; mid-market/enterprise tiers $12,000+/year) | Free Forever suite of calculators (AI Carbon Calculator, CBAM & CSRD Assessment tools); 14-day trial available via sales consultation |
+| **[FigBytes](https://figbytes.com/)** | Sustainability and ESG data-management platform for collecting environmental and social data, managing targets, and producing sustainability reports. | ~$20,000 – $35,000/year for core sustainability & carbon data management module | No free forever plan; 14-day interactive product tour / guided pilot on request |
+| **[Sphera](https://sphera.com/)** | Enterprise sustainability, ESG, operational risk, product stewardship, environmental accounting, and life-cycle assessment platform. | ~$15,000 – $30,000/year for entry-level Environmental Accounting / Life Cycle Assessment (LCA) modules | 14-day free trial for Sphera LCA (Life Cycle Assessment for Experts); enterprise suite offered via guided demo |
+| **[Microsoft Cloud for Sustainability](https://www.microsoft.com/en-us/sustainability/cloud)** | Microsoft sustainability data and analytics ecosystem for emissions management, ESG data, environmental reporting, and sustainability performance. | $4,000/tenant/month ($48,000/year) base Essentials SKU + user SKUs ($12,000/tenant/month for Premium tier) | 30-day free trial with full Premium tier features and Dataverse test environment access |
+| **[Normative](https://normative.io/)** | Carbon accounting and climate-management platform supporting Scope 1–3 measurement, emissions data collection, reporting, and reduction planning. | ~$10,000 – $25,000/year for mid-market automated Scope 1–3 carbon accounting platform | Free Forever plan via SME Climate Hub Business Carbon Calculator (unlimited baseline Scope 1, 2, & basic Scope 3 calculations for small businesses) |
+| **[Position Green](https://www.positiongreen.com/)** | ESG reporting and sustainability-management platform covering data collection, reporting, analytics, and sustainability strategy. | ~$12,000 – $25,000/year (€10,000 – €20,000/year for base ESG data collection & CSRD readiness suite) | Free forever access to Position Green Academy basic sustainability e-learning courses; no software free trial (demo on request) |
+| **[Plan A](https://plana.earth/)** | Sustainability platform focused on carbon accounting, decarbonization, ESG reporting, and climate action. | ~$1,200 – $2,500/month (~$14,400 – $30,000/year for SME/mid-market carbon accounting & CSRD reporting suite) | Free Carbon Footprint Estimator & CSRD Readiness Assessment tools; 14-day pilot upon qualified discovery call |
+| **[SINAI Technologies](https://www.sinaitechnologies.com/)** | Enterprise decarbonization and climate-management platform for carbon accounting, emissions reduction planning, and scenario analysis. | ~$25,000 – $40,000/year for core emissions measurement and decarbonization scenario planning modules | No free forever plan; 14-day guided proof-of-concept for qualified enterprise decarbonization programs |
+| **[Novata](https://www.novata.com/)** | ESG data-management and reporting platform designed to help private-market companies collect, benchmark, and report sustainability information. | ~$15,000 – $30,000/year for private market GP/LP ESG data collection and benchmarking tier | No free forever plan; 14-day sample dataset & benchmark sandbox demo upon request |
+| **[EcoVadis](https://ecovadis.com/)** | Sustainability intelligence and supplier assessment platform providing ESG ratings, scorecards, benchmarking, and supply-chain sustainability data. | ~$500 – $1,000/year (€400 – €800/year for Basic plan, XS/Small suppliers; Premium starts at ~$1,800 – $3,500/year) | Free Forever Carbon Rating assessment tool for suppliers; 6-week free questionnaire period for invited suppliers prior to scorecard purchase |
+| **[Clarity AI](https://clarity.ai/)** | Sustainability and impact analytics platform providing ESG, climate, regulatory, and investment-related data and analytics. | ~$15,000 – $30,000/year for entry-level sustainability/ESG fund analytics & regulatory screening API | No free forever plan; 14-day API testing sandbox with sample entity data upon enterprise inquiry |
+| **[Benchmark ESG](https://www.benchmarkdigital.com/)** | Enterprise ESG and environmental, health, safety, and sustainability management platform. | ~$20,000 – $40,000/year for baseline ESG / Environmental Compliance module suite | No free forever plan; 30-day interactive guided evaluation / pilot for qualified enterprise teams |
+| **[VelocityEHS](https://www.ehs.com/)** | Environmental, health, safety, sustainability, and ESG management platform with data collection, analytics, reporting, and compliance workflows. | ~$10,000 – $25,000/year for entry EHS & ESG metrics tracking package | 14-day free trial for Chemical Management / SDS module; full ESG suite via tailored demo |
+| **[Cority](https://www.cority.com/)** | Enterprise EHS, sustainability, and ESG software platform supporting environmental data, sustainability performance, and reporting. | ~$30,000 – $50,000/year for Sustainability Cloud base deployment | No free forever plan; 14-day guided product tour and sandbox demo upon sales request |
+| **[Enablon](https://www.wolterskluwer.com/en/solutions/enablon)** | Enterprise ESG, EHS, risk, compliance, and sustainability performance-management platform. | ~$50,000/year entry-level for risk & sustainability performance modules | No free forever plan; custom enterprise proof-of-concept environment upon request |
+| **[Sustain.Life](https://www.sustain.life/)** | Carbon accounting and sustainability-management platform designed for organizations measuring and reducing environmental impact. | $15/employee/month (remote work tracking) / ~$5,000 – $10,000/year for core SMB carbon accounting & ESG platform | Free emissions & ESG calculator tools; 14-day free trial of the carbon accounting platform upon registration/demo |
+| **[Greenhouse Gas Management by Salesforce](https://www.salesforce.com/)** | Sustainability data and carbon-management capabilities integrated into the Salesforce ecosystem (Net Zero Cloud). | ~$48,000/year (Starter tier, billed annually) / ~$210,000/year (Growth tier) | 30-day free trial of Salesforce Net Zero Cloud with pre-configured sustainability dashboards and sample carbon data |
+| **[SAP Sustainability Control Tower](https://www.sap.com/)** | Enterprise sustainability data, KPI, analytics, and reporting capabilities integrated with SAP business data. | ~$2,500/month (~$30,000/year base tier, based on 10 active user minimum at ~$250/user/month on SAP S/4HANA Cloud) | 30-day free trial / guided product tour on SAP Discovery Center for ESG metric tracking & regulatory reporting |
+| **[Oracle Sustainability](https://www.oracle.com/)** | Sustainability-management capabilities covering ESG data, environmental accounting, supply-chain sustainability, and enterprise reporting. | $250 – $500/user/month (Standard Oracle Fusion Cloud EPM subscription with integrated ESG extensions) | Oracle Cloud Free Tier with $300 credits for 30 days plus Always Free cloud services; 30-day guided evaluation for Fusion Cloud EPM |
+| **[Watershed Climate Intelligence](https://watershed.com/)** | Climate data infrastructure and analytics for enterprise emissions accounting, climate risk, supplier engagement, and sustainability programs. | ~$50,000 – $100,000/year for advanced enterprise climate intelligence, supplier engagement, and emissions forecasting | Free access to Watershed Open CEDA emissions factor dataset; no software free trial (enterprise demo only) |
 
 
 
