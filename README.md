@@ -77,7 +77,7 @@ These platforms enable enterprises, financial institutions, and developers to:
 | **[Position Green](https://www.positiongreen.com/)** | ~$50M Valuation (Norvestor Backed) | Full-suite sustainability software and advisory ecosystem supporting double materiality, supplier code of conduct tracking, and CSRD compliance. | ~$12,000 – $25,000/year (€10,000 – €20,000/year for base ESG data collection & CSRD readiness suite) | Free forever access to Position Green Academy basic sustainability e-learning courses; no software free trial (demo on request) |
 | **[Benchmark ESG](https://www.benchmarkdigital.com/)** | ~$50M Valuation (Benchmark Gensuite) | Enterprise EHS and sustainability digital platform enabling incident reporting, environmental compliance tracking, and ESG disclosure workflows. | ~$20,000 – $40,000/year for baseline ESG / Environmental Compliance module suite | No free forever plan; 30-day interactive guided evaluation / pilot for qualified enterprise teams |
 | **[FigBytes](https://figbytes.com/)** | ~$30M Valuation (Acquired by AMCS Group) | Sustainability data platform connecting carbon accounting, water stewardship, waste reduction, and social impact metrics with strategic ESG targets. | ~$20,000 – $35,000/year for core sustainability & carbon data management module | No free forever plan; 14-day interactive product tour / guided pilot on request |
-
+| **[EcoDiligence](https://ecodiligence.com)** | Reusable, self-reported ESG Passports for SMEs and suppliers, with structured data, customer sharing, and VSME-aligned reporting exports. | Early-stage / Bootstrapped | Free; paid plans from $29/month | Free forever: 1 ESG Passport; no credit card required. |
 ---
 
 ## ⚡ Open-Source GitHub Projects
